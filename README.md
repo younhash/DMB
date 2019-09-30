@@ -22,14 +22,8 @@ Numbers random facts: http://numbersapi.com/4
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP EXAMPLE
-- Find and use external api 
-- Render data on page
-- Create components
-- React Router
-- Create the logic: 
-    - Keep track of votes to display top votes
-    - Also display the latest quotes added
-- Style it
+-  The next button component should do another API CALL 
+- Keep track of votes to display top votes
 
 #### PostMVP EXAMPLE
 
@@ -51,9 +45,9 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will render the Home and Layout| 
-| Home | This will render the remaining component | 
-| Top | This will render the inputs of users | 
+| App | This will render the Home | 
+| Home | This will render the header and footer | 
+| Home | This will render the the api calls page | 
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
@@ -62,26 +56,39 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Preparation| H | 4hrs| 4hrs | 4hrs |
 | API | H | 3hrs| 3hrs | 3hrs |
-| Get data| H | 2hrs| 0hrs | 0hrs |
-| Components| H | 1hrs| 0hrs | 0hrs |
+| Get data| H | 1hrs| 0hrs | 0hrs |
+| Components| H | 3hrs| 0hrs | 0hrs |
 | Router| H | 3hrs| 0hrs | 0hrs |
-| Logic| H | 5hrs| 0hrs | 0hrs |
-| Style| H | 5hrs| 0hrs | 0hrs |
+| Logic| H | 4hrs| 0hrs | 0hrs |
+| Style| H | 3hrs| 0hrs | 0hrs |
 | Share| L | 6hrs| 0hrs | 0hrs |
 | Total | H | 25hrs| 0hrs | 0hrs |
 
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+
+axios,
+react router
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      check: '',
+      check1: '',
+      check2: ''
+    }
+    let check = axios.get('https://programming-quotes-api.herokuapp.com/quotes/random')
+    console.log(check);
+    let check1 = axios.get('http://numbersapi.com/4')
+    console.log(check1);
+    let check2 = axios.get('https://official-joke-api.appspot.com/jokes/random')
+    console.log(check2);
 ```
 
 ## Issues and Resolutions
