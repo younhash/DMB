@@ -60,9 +60,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Preparation| H | 4hrs| 4hrs | 4hrs |
+| API | H | 3hrs| 3hrs | 3hrs |
+| Get data| H | 2hrs| 0hrs | 0hrs |
+| Components| H | 1hrs| 0hrs | 0hrs |
+| Router| H | 3hrs| 0hrs | 0hrs |
+| Logic| H | 5hrs| 0hrs | 0hrs |
+| Style| H | 5hrs| 0hrs | 0hrs |
+| Share| L | 6hrs| 0hrs | 0hrs |
+| Total | H | 25hrs| 0hrs | 0hrs |
 
 
 ## Additional Libraries
