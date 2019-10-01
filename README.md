@@ -51,7 +51,9 @@ programming random quotes:
 ## React Component Hierarchy
 
 On the App.js file, I will have state define and have componets in side home component.
-See images on top.
+
+https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/component-hierarchy.jpeg
+
 Changes to the IMAGE: APP => HOME => HEADER, NUMBERS, PROGRAMMING QUOTES, PROGRAMMING JOKES, FOOTER
 
 ## Priority Matrix
