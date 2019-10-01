@@ -41,7 +41,7 @@ Numbers random facts: http://numbersapi.com/4
 
 On the App.js file, I will have state define and have componets in side home component.
 See images on top.
-Changes to the IMAGE  => APP => HOME => HEADER, NUMBERS, PROGRAMMING QUOTES, PROGRAMMING JOKES, FOOTER
+Changes to the IMAGE: APP => HOME => HEADER, NUMBERS, PROGRAMMING QUOTES, PROGRAMMING JOKES, FOOTER
 
 ## Priority Matrix
 
