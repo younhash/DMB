@@ -100,6 +100,14 @@ class App extends Component {
     console.log(check1);
     let check2 = axios.get('https://official-joke-api.appspot.com/jokes/random')
     console.log(check2);
+  }
+  render(){
+    return (
+      <div></div>
+    )
+  }
+
+}
 ```
 
 ## Issues and Resolutions
