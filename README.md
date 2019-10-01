@@ -18,6 +18,7 @@ programming random quote:
     "en": "The proper use of comments is to compensate for our failure to express ourself in code.",
     "author": "Robert C. Martin"
 }
+
 programming random joke:
 {
     "id": 354,
