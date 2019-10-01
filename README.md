@@ -19,20 +19,26 @@ Numbers random facts: http://numbersapi.com/4
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+- API calls
+- The NEXT button
+- Votes button
+- Number input for for random number facts
+- Share buttons
+
 
 #### MVP EXAMPLE
--  The next button component should do another API CALL 
-- Keep track of votes to display top votes
+- The Next button 
+- Votes button
 
 #### PostMVP EXAMPLE
 
-- Share on social media platforms
+- Share buttons
 
 ## React Component Hierarchy
 
 On the App.js file, I will have state define and have componets in side home component.
 See images on top.
+Changes to the IMAGE  => APP => HOME => HEADER, NUMBERS, PROGRAMMING QUOTES, PROGRAMMING JOKES, FOOTER
 
 ## Priority Matrix
 
@@ -47,19 +53,21 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | --- | :---: |  
 | App | This will render the Home | 
 | Home | This will render the header and footer | 
-| Home | This will render the the api calls page | 
+| Home | This will also render the the API calls pages |
+| API component pages | The three will render the API responses |
+| API component pages | The three will render NEXT, Votes, and Share buttons components |
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Preparation| H | 4hrs| 4hrs | 4hrs |
-| API | H | 3hrs| 3hrs | 3hrs |
-| Get data| H | 1hrs| 0hrs | 0hrs |
+| Preparation| H | 5hrs| 5hrs | 5hrs |
+| API | H | 1hrs| 1hrs | 1hrs |
+| Get data| H | 1hrs| 1hrs | 1hrs |
 | Components| H | 3hrs| 0hrs | 0hrs |
-| Router| H | 3hrs| 0hrs | 0hrs |
-| Logic| H | 4hrs| 0hrs | 0hrs |
+| Router| H | 4hrs| 0hrs | 0hrs |
+| Logic| H | 3hrs| 0hrs | 0hrs |
 | Style| H | 3hrs| 0hrs | 0hrs |
 | Share| L | 6hrs| 0hrs | 0hrs |
 | Total | H | 25hrs| 0hrs | 0hrs |
