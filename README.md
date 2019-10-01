@@ -9,6 +9,8 @@ DMB stands for Developers Mental Break where you come to for programming jokes, 
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
+https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/wireframe.jpeg
+
 ## API Snippet
 
 ```
@@ -58,7 +60,9 @@ Changes to the IMAGE: APP => HOME => HEADER, NUMBERS, PROGRAMMING QUOTES, PROGRA
 
 ## Priority Matrix
 
-Add in a picture of your Priority Matrix - See images on top. 
+Add in a picture of your Priority Matrix .
+
+https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/matrix.jpeg
 
 ## Functional Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
