@@ -40,8 +40,11 @@ programming random joke:
 
 #### MVP EXAMPLE
 
-- API calls
-- The Next button for the next random api calls
+- Render random joke from joke API
+- Render random quote from quote API
+- The Next button gets a new joke or quote.
+- Use React Router to route to joke/quote components
+- Responsive design, two views, mobile & desktop
 
 #### PostMVP EXAMPLE
 
