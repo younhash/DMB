@@ -12,13 +12,13 @@ DMB stands for Developers Mental Break where you come to for programming jokes, 
 ## API Snippet
 
 ```
-programming random jokes:
+programming random quote:
 {
     "_id": "5a6ce86f2af929789500e849",
     "en": "The proper use of comments is to compensate for our failure to express ourself in code.",
     "author": "Robert C. Martin"
 }
-programming random quotes:
+programming random joke:
 {
     "id": 354,
     "type": "general",
