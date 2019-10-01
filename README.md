@@ -57,8 +57,6 @@ programming random joke:
 [Component Hierarchy](https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/component-hierarchy.jpeg)
 
 
-https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/component-hierarchy.jpeg
-
 ## Priority Matrix
 
 [Priority Marix](https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/matrix.jpeg)
