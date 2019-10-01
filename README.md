@@ -54,17 +54,14 @@ programming random joke:
 
 ## React Component Hierarchy
 
-On the App.js file, I will have state define and have componets in side home component.
+[Component Hierarchy](https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/component-hierarchy.jpeg)
+
 
 https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/component-hierarchy.jpeg
 
-Changes to the IMAGE: APP => HOME => HEADER, NUMBERS, PROGRAMMING QUOTES, PROGRAMMING JOKES, FOOTER
-
 ## Priority Matrix
 
-Add in a picture of your Priority Matrix .
-
-https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/matrix.jpeg
+[Priority Marix](https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/matrix.jpeg)
 
 ## Functional Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
