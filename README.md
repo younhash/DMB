@@ -20,19 +20,22 @@ Numbers random facts: http://numbersapi.com/4
 ### MVP/PostMVP - 5min
 
 - API calls
-- The NEXT button
-- Votes button
+- The NEXT button for the next random
+- Votes button with local storage
 - Number input for for random number facts
-- Share buttons
+- Share buttons on social media
 
 
 #### MVP EXAMPLE
-- The Next button 
-- Votes button
+
+- API calls
+- The Next button for the next random
+- Number input for for random number facts
 
 #### PostMVP EXAMPLE
 
-- Share buttons
+- Share buttons on social media
+- Votes button with local storage
 
 ## React Component Hierarchy
 
