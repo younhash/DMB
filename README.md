@@ -7,9 +7,7 @@ DMB stands for Developers Mental Break where you come to for programming jokes, 
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
-
-https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/wireframe.jpeg
+[Wireframes](https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/wireframe.jpeg)
 
 ## API Snippet
 
