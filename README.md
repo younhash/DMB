@@ -7,20 +7,19 @@ DMB stands for Developers Mental Break where you come to for programming jokes, 
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
-
-https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/wireframe.jpeg
+[Wireframes](https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/wireframe.jpeg)
 
 ## API Snippet
 
 ```
-programming random jokes:
+programming random quote:
 {
     "_id": "5a6ce86f2af929789500e849",
     "en": "The proper use of comments is to compensate for our failure to express ourself in code.",
     "author": "Robert C. Martin"
 }
-programming random quotes:
+
+programming random joke:
 {
     "id": 354,
     "type": "general",
@@ -41,8 +40,11 @@ programming random quotes:
 
 #### MVP EXAMPLE
 
-- API calls
-- The Next button for the next random api calls
+- Render random joke from joke API
+- Render random quote from quote API
+- The Next button gets a new joke or quote.
+- Use React Router to route to joke/quote components
+- Responsive design, two views, mobile & desktop
 
 #### PostMVP EXAMPLE
 
@@ -52,17 +54,12 @@ programming random quotes:
 
 ## React Component Hierarchy
 
-On the App.js file, I will have state define and have componets in side home component.
+[Component Hierarchy](https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/component-hierarchy.jpeg)
 
-https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/component-hierarchy.jpeg
-
-Changes to the IMAGE: APP => HOME => HEADER, NUMBERS, PROGRAMMING QUOTES, PROGRAMMING JOKES, FOOTER
 
 ## Priority Matrix
 
-Add in a picture of your Priority Matrix .
-
-https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/matrix.jpeg
+[Priority Marix](https://git.generalassemb.ly/younhash/DMB/blob/master/developer-mb/project2-images/matrix.jpeg)
 
 ## Functional Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
