@@ -16,11 +16,19 @@ class Jokes extends Component {
         })
         console.log(joke);        
         console.log(this.state.joke)
-      }
+    }
+
+    nextCall = async () => {
+        let joke = await axios.get('https://official-joke-api.appspot.com/jokes/programming/random')
+        this.setState({
+            joke: joke.data[0]
+        })            
+    }
 
     render () {
         return (
             <div>
+                <button onClick={this.nextCall}>Next</button>
                 {this.state.joke.setup}
                 <br/>
                 {this.state.joke.punchline}

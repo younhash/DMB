@@ -6,7 +6,8 @@ class Quotes extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            quote: []
+            quote: [],
+            nextCall: []
         }
     }
     async componentDidMount() {
@@ -16,11 +17,20 @@ class Quotes extends Component {
           quote: quote.data
         })
         console.log(this.state.quote)
-      }
+    }
 
-    render () {
+    nextCall = async () => {
+        let quote = await axios.get('https://programming-quotes-api.herokuapp.com/quotes/random')
+        this.setState({
+            quote: quote.data
+        })            
+    }
+    
+
+    render () {      
         return (
             <div>
+                <button onClick={this.nextCall}>Next</button>
                 {this.state.quote.en}
                 <br/>
                 {this.state.quote.author}
