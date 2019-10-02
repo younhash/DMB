@@ -1,17 +1,28 @@
 import React, { Component } from 'react'
-import { link } from 'react-router-dom'
-// import axios from 'axios'
+//import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 class Quotes extends Component {
-    // constructor(props) {
-    //     super(props)
-    // }
+    constructor(props) {
+        super(props)
+        this.state = {
+            quote: []
+        }
+    }
+    async componentDidMount() {
+        let quote = await axios.get('https://programming-quotes-api.herokuapp.com/quotes/random')
+        console.log(this.state.quote)
+        this.setState({
+          quote: quote.data
+        })
+        console.log(this.state.quote)
+      }
+
     render () {
-        console.log(this.props.quote);
-        
         return (
             <div>
-                <link to={this.props.randomQuotes}><p>hello</p></link>
+                {this.state.quote.en}
+                {this.state.quote.author}
             </div>
         )
     }
