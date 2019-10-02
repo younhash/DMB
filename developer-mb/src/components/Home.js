@@ -17,6 +17,7 @@ const Home = () => {
                 <ul>
                     <li><Link to="/randomQuotes">Quotes</Link> </li>
                     <li><Link to="/randomJokes">Jokes</Link> </li>
+                    <li><Link to="/numberfacts">Numbers</Link> </li>
                 </ul>
                 <Footer />
             </div>

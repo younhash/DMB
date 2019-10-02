@@ -22,6 +22,7 @@ class Quotes extends Component {
         return (
             <div>
                 {this.state.quote.en}
+                <br/>
                 {this.state.quote.author}
             </div>
         )
