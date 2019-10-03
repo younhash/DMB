@@ -5,7 +5,11 @@ class Jokes extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            joke: []
+            joke: [],
+            counts: 0,
+            item: 0,
+            item0: [],
+            parseItem: [],
         }
     }
     async componentDidMount() {
@@ -25,6 +29,30 @@ class Jokes extends Component {
         })            
     }
 
+    // countBoard = (props) => {
+    //     return(
+    //         <p>This joke has {this.state.counts} votes</p>
+    //     )
+    // }
+
+    votesRecord = async (props) => {       
+        this.setState({
+            counts: this.state.counts +1,
+            item: 0,
+            r: 0,
+            parseItem: []
+        })
+        // localStorage.removeItem('counts')
+
+            localStorage.setItem('counts', JSON.stringify(this.state.counts))
+        
+            let item = await localStorage.getItem('counts')
+            console.log(item);
+            // localStorage.removeItem('counts')
+            // return <countBoard />
+            return <div>This joke has {this.state.counts} votes</div>
+    }
+
     render () {
         return (
             <div>
@@ -32,6 +60,9 @@ class Jokes extends Component {
                 {this.state.joke.setup}
                 <br/>
                 {this.state.joke.punchline}
+                <button onClick={this.votesRecord}>Vote</button>
+
+                {/* <p>This joke has {this.state.counts} votes</p> */}
             </div>
         )
     }
