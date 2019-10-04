@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import Header from './Header'
+import Footer from './Footer'
+import App from '../App.css'
 
 class Numbers extends Component {
     constructor(props) {
@@ -42,7 +45,9 @@ class Numbers extends Component {
 
     render () {
         return (
-            <div>
+            
+            <div className="App">
+                <Header />
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         Type any number:
@@ -50,8 +55,10 @@ class Numbers extends Component {
                     </label>
                     <input type="submit" value="submit"/>
                 </form>
-                {this.state.number.text}
-
+                <div className="boxes">
+                    {this.state.number.text}
+                </div>
+                <Footer />
             </div>
         )
     }

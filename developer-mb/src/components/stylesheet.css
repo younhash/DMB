@@ -1,0 +1,9 @@
+.boxes {
+  color: rgb(231, 202, 227);
+  border: 5px solid rgb(28, 12, 32);
+}
+
+.header {
+  color: white;
+  background-color: rgb(65, 15, 65);
+}

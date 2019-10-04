@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
+import App from '../App.css'
+import './stylesheet.css'
 
-class Header extends Component {
-    // constructor(props) {
-    //     super(props)
-    // }
-    render () {
-        return (
-            <h1>hello world Header</h1>
-        )
-    }
+const Header = () => {
+    return (
+        <div>           
+            <h1 className="header">Hello World Header</h1>
+        </div>
+    )    
 }
 
 

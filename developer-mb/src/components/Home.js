@@ -5,6 +5,8 @@ import Header from './Header'
 // import Numbers from './Numbers'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+//import App from '../App.css'
+//import index from '../index'
 
 //class Home extends Component {
     // constructor(props) {
@@ -12,7 +14,7 @@ import { Link } from 'react-router-dom'
     // }
 const Home = () => {
         return (
-            <div>
+            <div className="App">
                 <Header />
                 <ul>
                     <li><Link to="/randomQuotes">Quotes</Link> </li>

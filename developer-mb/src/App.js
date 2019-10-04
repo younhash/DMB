@@ -5,7 +5,7 @@ import Quotes from './components/Quotes'
 import Jokes from './components/Jokes'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Numbers from './components/Numbers'
-
+import Style from './components/Style'
 
 class App extends Component {
   // constructor(props){
@@ -16,7 +16,8 @@ class App extends Component {
 
   render(){
     return (
-      <div>
+      <div className="App">
+        <Style />
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/randomQuotes" component={Quotes}/>
