@@ -5,6 +5,7 @@ import Header from './Header'
 // import Numbers from './Numbers'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+import jokes from '../sample.json'
 //import App from '../App.css'
 //import index from '../index'
 
@@ -12,6 +13,10 @@ import { Link } from 'react-router-dom'
     // constructor(props) {
     //     super(props)
     // }
+
+
+
+    
 const Home = () => {
         return (
             <div className="App">

@@ -13,7 +13,6 @@ class Quotes extends Component {
         super(props)
         this.state = {
             quote: [],
-            nextCall: []
         }
     }
     async componentDidMount() {
@@ -25,12 +24,12 @@ class Quotes extends Component {
         console.log(this.state.quote)
     }
 
-    nextCall = async () => {
-        let quote = await axios.get('https://programming-quotes-api.herokuapp.com/quotes/random')
-        this.setState({
-            quote: quote.data
-        })            
-    }
+    // nextCall = async () => {
+    //     let quote = await axios.get('https://programming-quotes-api.herokuapp.com/quotes/random')
+    //     this.setState({
+    //         quote: quote.data
+    //     })            
+    // }
     
 
     render () {      
@@ -45,6 +44,7 @@ class Quotes extends Component {
                     <h3> {oneQuote.rating} </h3>
                     <p> {oneQuote.en}</p>
                     <p>{oneQuote.author}</p>
+                    <div>hey</div>
                 </div> )}
 
                 <Footer />

@@ -1,6 +1,9 @@
 .boxes {
   color: rgb(231, 202, 227);
   border: 5px solid rgb(28, 12, 32);
+  width: 80%;
+  height: 240px;
+  margin-bottom: 10px;
 }
 
 .header {

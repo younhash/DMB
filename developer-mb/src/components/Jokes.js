@@ -1,26 +1,19 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-// import { FacebookShareButton } from 'react-share'
-// import { FacebookIcon } from 'react-share'
+import { FacebookShareButton } from 'react-share'
+import { FacebookIcon } from 'react-share'
 import jokes from '../sample.json'
 import Header from './Header.js'
 import Footer from './Footer.js'
-import App from '../App.css'
+// import App from '../App.css'
 
 class Jokes extends Component {
     constructor(props) {
         super(props)
         this.state = {
             joke: [],
-            jokezz: jokes,
-            id: '',
-            count: '',
             counts: 0,
             item: 0,
-            item0: [],
-            parseItem: [],
-            record: {},
-            keys: {}
         }
     }
     async componentDidMount() {
@@ -50,21 +43,21 @@ class Jokes extends Component {
     //     })
     // }
 
-    // votesRecord = async (props) => {
-    //     this.setState({
-    //         getId: 0,
-    //         counts: this.state.counts +1,
-    //         item: 0,
-    //         id: '',
-    //         count: '',
-    //     })
+    votesRecord = async (props) => {
+        this.setState({
+            getId: 0,
+            counts: this.state.counts +1,
+            item: 0,
+            id: '',
+            count: '',
+        })
             
-    //         let item = this.state.joke.id
-    //         let id = localStorage.setItem('record.id', item)
-    //         let count = localStorage.setItem('record.counts', JSON.stringify(this.state.counts))
-    //         let record = localStorage.setItem('record', id, count)
-    //         // let item = await localStorage.getItem('counts')
-    // }
+            //let item = this.state.joke.id
+            //let id = localStorage.setItem('record.id', item)
+            //let count = localStorage.setItem('record.counts', JSON.stringify(this.state.counts))
+            //let record = localStorage.setItem('record', id, count)
+            //let item = await localStorage.getItem('counts')
+    }
 
     render () {
         return (
@@ -76,14 +69,16 @@ class Jokes extends Component {
                     <h3> {oneJoke.type} </h3>
                     <p> {oneJoke.setup}</p>
                     <p>{oneJoke.punchline}</p>
-
+                    <div>
+                        <FacebookShareButton className="button" url={'/Users/alhussinjaiteh/homework/week6Project/DMB/developer-mb/src'} />
+                        <FacebookIcon size={32} round={true} />
+                        <button className="button" onClick={this.votesRecord}>Vote </button>              
+                        <span className="button"> {this.state.counts} Votes</span>
+                    </div>
                 </div> )}
                 {/* <p>{this.state.joke.setup}</p>
                 <p>{this.state.joke.punchline}</p>
-                <p>{this.state.jokezz.punchline}</p>
-                <button onClick={this.votesRecord}>Vote</button> */}
-                {/* <span><FacebookShareButton url={shareUrl} /></span> */}
-                <p>This joke has {this.state.counts} votes</p>
+                <p>{this.state.jokezz.punchline}</p>*/}
                 <Footer />
             </div>
         )
