@@ -84,12 +84,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Preparation| H | 9hrs| 9hrs | 9hrs |
 | API | H | 1hrs| 1hrs | 1hrs |
 | Get data| H | 1hrs| 1hrs | 1hrs |
-| Components| H | 3hrs| 0hrs | 0hrs |
-| Router| H | 4hrs| 0hrs | 0hrs |
-| Logic| H | 1hrs| 0hrs | 0hrs |
-| Style| H | 3hrs| 0hrs | 0hrs |
-| Share| L | 2hrs| 0hrs | 0hrs |
-| Total | H | 25hrs| 0hrs | 0hrs |
+| Components| H | 3hrs| 3hrs | 3hrs |
+| Router| H | 4hrs| 1hrs | 1hrs |
+| Logic| H | 1hrs| 15hrs | 15hrs |
+| Style| H | 3hrs| 1hrs | 1hrs |
+| Share| L | 2hrs| 1hrs | 1hrs |
+| Total | H | 25hrs| 31hrs | 31hrs |
 
 
 ## Additional Libraries
