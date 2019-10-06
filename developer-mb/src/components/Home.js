@@ -5,28 +5,27 @@ import Header from './Header'
 // import Numbers from './Numbers'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
-import jokes from '../sample.json'
-//import App from '../App.css'
+//import jokes from '../sample.json'
+import '../App.css'
 //import index from '../index'
 
-//class Home extends Component {
-    // constructor(props) {
-    //     super(props)
-    // }
 
 
 
     
 const Home = () => {
+    const office = "General Assembly"
+    const other = "Post General Assembly"
+    const year = 2019
         return (
             <div className="App">
-                <Header />
+                <Header brand="Developers Mental Break" developer="Mo" year={year}/>
                 <ul>
                     <li><Link to="/randomQuotes">Quotes</Link> </li>
                     <li><Link to="/randomJokes">Jokes</Link> </li>
                     <li><Link to="/numberfacts">Numbers</Link> </li>
                 </ul>
-                <Footer />
+                <Footer brand="Developers Mental Break" developer="Mo" year={year} office={office} other={other}/>
             </div>
         )
 }

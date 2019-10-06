@@ -1,3 +1,6 @@
+body {
+  background: rgb(32, 19, 39);
+}
 
 .App-header {
   background-color: #282c34;
@@ -9,6 +12,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #09d3ac;
@@ -34,6 +38,9 @@ ul li {
 
 ul li a {
   font-size: 36px;
+  text-decoration: none;
+  border-style: outset;
+  padding: 10px 40px;
 }
 
 .button {
@@ -58,6 +65,22 @@ ul {
   font-size: 16px;
 }
 
-Footer {
-  height: 130px;
+h1.header {
+  background: rgb(169, 114, 189);
+  border-radius: 15%;
+  color: rgb(36, 29, 39);
+  text-align: center;
+}
+
+.footer {
+  margin-top: 48px;
+  text-align: center;
+  border-width: thick;
+  border-top: rgb(32, 19, 39);
+  padding: 50px;
+}
+
+div.boxes {
+  text-align: center;
+  padding: 36px;
 }

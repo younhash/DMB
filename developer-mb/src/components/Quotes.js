@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import Header from './Header'
 import Footer from './Footer'
-// import App from '../App.css'
+import '../App.css'
 import Style from './Style'
 //import Style from './Style.css'
 import './stylesheet.css'
@@ -13,6 +13,7 @@ class Quotes extends Component {
         super(props)
         this.state = {
             quote: [],
+            //nextCall: []
         }
     }
     async componentDidMount() {
@@ -37,14 +38,13 @@ class Quotes extends Component {
             <div className="App">
                 <Style />
                 <Header />
-                <button onClick={this.nextCall}>Next</button>              
+                {/* <button onClick={this.nextCall}>Next</button>               */}
                 { this.state.quote.map( (oneQuote, index) =>
 
                 <div className="boxes" key={index}>
-                    <h3> {oneQuote.rating} </h3>
+                    <h3>rating:  {oneQuote.rating} </h3>
                     <p> {oneQuote.en}</p>
-                    <p>{oneQuote.author}</p>
-                    <div>hey</div>
+                    <h4> - {oneQuote.author}</h4>
                 </div> )}
 
                 <Footer />

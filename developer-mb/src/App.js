@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './App.css'
 import Home from './components/Home'
 import Quotes from './components/Quotes'
@@ -7,14 +7,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Numbers from './components/Numbers'
 import Style from './components/Style'
 
-class App extends Component {
-  // constructor(props){
-  //   super(props)
-  //     this.state = {
-  //     }
-  // }
+function App() {
 
-  render(){
     return (
       <div className="App">
         <Style />
@@ -26,8 +20,6 @@ class App extends Component {
         </Switch>
       </div>
     )
-  }
-
 }
 
     

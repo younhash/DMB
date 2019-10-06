@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import { FacebookShareButton } from 'react-share'
+// import { FacebookShareButton } from 'react-share'
 import { FacebookIcon } from 'react-share'
-import jokes from '../sample.json'
+//import jokes from '../sample.json'
 import Header from './Header.js'
 import Footer from './Footer.js'
-// import App from '../App.css'
+import '../App.css'
 
 class Jokes extends Component {
     constructor(props) {
@@ -66,11 +66,10 @@ class Jokes extends Component {
                 <button onClick={this.nextCall}>Next</button>
                 { this.state.joke.map( (oneJoke, index) =>
                 <div className="boxes" key={index}>
-                    <h3> {oneJoke.type} </h3>
                     <p> {oneJoke.setup}</p>
                     <p>{oneJoke.punchline}</p>
                     <div>
-                        <FacebookShareButton className="button" url={'/Users/alhussinjaiteh/homework/week6Project/DMB/developer-mb/src'} />
+                        {/* <FacebookShareButton className="button" url={'/Users/alhussinjaiteh/homework/week6Project/DMB/developer-mb/src'} /> */}
                         <FacebookIcon size={32} round={true} />
                         <button className="button" onClick={this.votesRecord}>Vote </button>              
                         <span className="button"> {this.state.counts} Votes</span>

@@ -1,13 +1,13 @@
 import React from 'react'
-import App from '../App.css'
+//import '../App.css'
 import './stylesheet.css'
 import './Codes-coding-connection-693859.jpg'
 
-const Header = () => {
+const Header = (props) => {
     return (
-        <div>
-            <p><img src='./Codes-coding-connection-693859.jpg' alt='computer software' width='400'/></p>          
-            <h1 className="header">Hello World Header</h1>
+        <div className="App">
+            <img src='/sunset.jpg' alt='computer software' width="600px"/>
+            <h1 className="header">{props.brand}</h1>
         </div>
     )    
 }
